@@ -5,8 +5,8 @@ mkdir live-default
 cd live-default || exit
 lb config --distribution bookworm --archive-areas "main contrib non-free non-free-firmware" --iso-volume "GNUstep Live"
 
-mkdir -p config/includes.chroot/usr
-cp -R usr/* config/includes.chroot/usr
+mkdir -p config/includes.chroot_after_packages/usr
+cp -R ../usr/* config/includes.chroot_after_packages/usr
 
 cat <<EOF > config/hooks/live/gnustep.hook.chroot
 #!/bin/sh
