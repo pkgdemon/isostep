@@ -7,6 +7,8 @@ lb config --distribution bookworm --archive-areas "main contrib non-free non-fre
 
 mkdir -p config/includes.chroot_after_packages/usr
 cp -R ../usr/* config/includes.chroot_after_packages/usr
+mkdir -p config/includes.chroot_after_packages/etc
+cp -R ../etc/* config/includes.chroot_after_packages/etc
 
 cat <<EOF > config/hooks/live/gnustep.hook.chroot
 #!/bin/sh
