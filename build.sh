@@ -11,6 +11,7 @@ cat <<EOF > config/hooks/live/gnustep.hook.chroot
 set -e
 
 apt install -y git
+apt install -y sddm
 
 git clone https://github.com/pkgdemon/debstep
 cd /debstep && ./debstep-installer
