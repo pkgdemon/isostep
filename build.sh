@@ -22,8 +22,8 @@ cd /debstep && ./debstep-installer
 rm -rf /debstep
 rm -rf /gnustep-src
 
-systemctl enable /System/Applications/Login.app/Resources/loginwindow.service
-systemctl set-default graphical.target
+#systemctl enable /System/Applications/Login.app/Resources/loginwindow.service
+#systemctl set-default graphical.target
 EOF
 
 lb build
