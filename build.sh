@@ -21,7 +21,6 @@ cd /debstep && ./debstep-installer
 rm -rf /debstep
 rm -rf /gnustep-src
 cp /Developer/Makefiles/GNUstep.sh /etc/profile.d/GNUstep.sh
-echo "X-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/gnome-initial-setup-first-login.desktop
 EOF
 
 lb build
