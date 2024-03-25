@@ -2,7 +2,7 @@
 Type=Application
 Name=GNUstep Defaults
 TryExec=gnustep-defaults
-Exec=dnustep-defaults
+Exec=gnustep-defaults
 StartupNotify=false
 NoDisplay=true
 
