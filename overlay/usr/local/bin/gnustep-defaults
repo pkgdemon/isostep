@@ -4,6 +4,6 @@ if [ -f "${HOME}/.config/gnustep_setup_done" ] ; then
   exit 0
 fi
 
-defaults write NSGlobalDomain GSTheme GnomeTheme
+defaults write NSGlobalDomain GSTheme Gtk
 
 touch ${HOME}/.config/gnustep_setup_done
