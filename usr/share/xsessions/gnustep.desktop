@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=XSession
-Exec=/usr/local/bin/gnustep
-DesktopNames=GNUstep
-Name=GNUstep
-Comment=GNUstep

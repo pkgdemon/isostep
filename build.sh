@@ -7,9 +7,6 @@ lb config --distribution bookworm --archive-areas "main contrib non-free non-fre
 
 echo "gnome" > config/package-lists/gnustep.list.chroot
 
-mkdir -p config/includes.chroot_after_packages/usr
-cp -R ../usr/* config/includes.chroot_after_packages/usr
-
 cat <<EOF > config/hooks/live/gnustep.hook.chroot
 #!/bin/sh
 
@@ -22,6 +19,7 @@ cd /debstep && ./debstep-installer
 rm -rf /debstep
 rm -rf /gnustep-src
 cp /Developer/Makefiles/GNUstep.sh /etc/profile.d/GNUstep.sh
+echo "X-GNOME-Autostart-enabled=false" >> /etc/xdg/autostart/gnome-initial-setup-first-login.desktop
 EOF
 
 lb build
