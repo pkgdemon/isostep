@@ -5,8 +5,7 @@ mkdir live-default
 cd live-default || exit
 lb config --distribution bookworm --archive-areas "main contrib non-free non-free-firmware" --iso-volume "GNUstep Live"
 
-echo "xorg" > config/package-lists/gnustep.list.chroot
-echo "lightdm" > config/package-lists/gnustep.list.chroot
+echo "gnome" > config/package-lists/gnustep.list.chroot
 
 mkdir -p config/includes.chroot_after_packages/usr
 cp -R ../usr/* config/includes.chroot_after_packages/usr
