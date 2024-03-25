@@ -21,6 +21,7 @@ git clone https://github.com/pkgdemon/debstep
 cd /debstep && ./debstep-installer
 rm -rf /debstep
 rm -rf /gnustep-src
+cp /Developer/Makefiles/GNUstep.sh /etc/profile.d/GNUstep.sh
 EOF
 
 lb build
