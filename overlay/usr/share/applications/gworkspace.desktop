@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GWorkspace
+Comment=Play many different solitaire games
+Exec=GWorkspace
+Icon=/System/Applications/GWorkspace.app/Resources/FileManager.tiff
+Terminal=false
+Type=Application
+Categories=GNOME;GTK
