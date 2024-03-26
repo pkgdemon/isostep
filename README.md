@@ -2,7 +2,7 @@
 
 This ISO provides a playground for experimenting with GNUstep within Gnome 3.
 
-Features
+**Features**
 
 * Based on Debian 12 bookworm stable release
 * Stable GNUstep installed installed in OS X 10.4 style layout
@@ -10,7 +10,7 @@ Features
 * GTK theme engine enabled by default
 * Integration with Gnome 3
 
-Things to try after install
+**Things to try after install**
 
 * Launching GWorkspace from activities
 * Enabling user themes in extensions and trying custom GTK themes from the internet
@@ -18,9 +18,12 @@ Things to try after install
 * Testing GORM, ProjectCenter in /Developer/Applications
 
 ![Screenshot_2024-03-26_00:13:59](https://github.com/pkgdemon/isostep/assets/4109732/ecf41241-0910-4ff3-8d8f-3b2bea0c52d3)
+**
+Buidling the ISO**
 
-Buidling the ISO
+The following commands require a Debian 12 bookworm host:
 
 ```
-./build.sh
+sudo apt install live-build
+sudo ./build.sh
 ```
