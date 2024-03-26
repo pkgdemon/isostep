@@ -18,8 +18,8 @@ This ISO provides a playground for experimenting with GNUstep within Gnome 3.
 * Testing GORM, ProjectCenter in /Developer/Applications
 
 ![Screenshot_2024-03-26_00:13:59](https://github.com/pkgdemon/isostep/assets/4109732/ecf41241-0910-4ff3-8d8f-3b2bea0c52d3)
-**
-Buidling the ISO**
+
+**Buidling the ISO**
 
 The following commands require a Debian 12 bookworm host:
 
