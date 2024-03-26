@@ -18,3 +18,9 @@ Things to try after install
 * Testing GORM, ProjectCenter in /Developer/Applications
 
 ![Screenshot_2024-03-26_00:13:59](https://github.com/pkgdemon/isostep/assets/4109732/ecf41241-0910-4ff3-8d8f-3b2bea0c52d3)
+
+Buidling the ISO
+
+```
+./build.sh
+```
