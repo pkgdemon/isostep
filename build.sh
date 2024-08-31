@@ -21,7 +21,7 @@ lb config --distribution bookworm --archive-areas "main contrib non-free non-fre
 # Customize package lists to include all GNUstep packages, WindowMaker, and Calamares
 echo "Adding all GNUstep packages and Calamares Installer..."
 WORKDIR="$PWD"
-cp ${WORKDIR}/config/package-lists/gershwin.list.chroot config/package-lists/gershwin.list.chroot
+cp ${WORKDIR}/config/package-lists/gnustep.list.chroot config/package-lists/gnustep.list.chroot
 
 # Build the live ISO
 echo "Building the live ISO..."
